@@ -38,3 +38,116 @@
     width: 24px;
     color: var(--ash);
 }
+/* ----------------------------banner styles--------------- */
+.banner{
+    display: flex;
+    padding-left: 120px;
+    padding-right: 120px;
+    gap: 250px;
+}
+.bn-details{
+    padding-top: 145px;
+    
+}
+.bn-heading{
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 70px;
+    color: var(--ash);
+    margin-bottom: 16px;
+}
+.bn-para{
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--ash);
+    margin-bottom: 16px;
+}
+.bn-btn{
+    width: 196px;
+    height: 44px;
+    background: #E02C6D;
+    border-radius: 41px;
+    color: white;
+    border: 0;
+    padding: 10px 24px;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;   
+}
+button{
+    text-decoration: none; 
+}
+.bn-img{
+    padding-top: 96px;
+    
+}
+/* ______________marketplaces_________________ */
+.market-places{
+    padding-top: 84px;
+    padding-left: 165px;
+    padding-right: 165px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+/* _____________product styles________________ */
+.product-heading{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 28px;
+    padding-top: 100px;
+}
+.products{
+    display: grid;
+    
+}
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 30px;
+    padding-left: 196px;
+    padding-right: 196px;
+    padding-top: 45px;
+    /* background-color: #AAAAAA; */
+}
+.product-item{
+    
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+
+}
+.product-img img{
+    width: 100%;
+    height: 256px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 17px;
+}
+.product-title{
+    font-weight: 500;
+    font-size: 28px;
+    padding-left: 14px;
+}
+.product-price{
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.87);
+    padding-left: 14px;
+}
+.product-des{
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--ash);
+    padding-left: 14px;
+    
+}
+.see-more{
+    padding-right: 196px;
+    display: flex;
+    justify-content: end;
+    color: rgba(224, 44, 109, 0.87);
+    font-weight: 700;
+    font-size: 16px;
+
+}
