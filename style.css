@@ -1,0 +1,8 @@
+:root{
+    --ash: #3A3A3A;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
