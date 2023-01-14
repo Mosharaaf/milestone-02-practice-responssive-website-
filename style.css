@@ -63,8 +63,7 @@
     margin-bottom: 16px;
 }
 .bn-btn{
-    width: 196px;
-    height: 44px;
+    /* display: flex;
     background: #E02C6D;
     border-radius: 41px;
     color: white;
@@ -72,10 +71,22 @@
     padding: 10px 24px;
     font-weight: 700;
     font-size: 16px;
-    text-decoration: none;   
+    text-decoration: none;    */
 }
-button{
+.pink{
+    display: flex;
+    background: #E02C6D;
+    border-radius: 41px;
+    color: white;
+    border: 0;
+    padding: 10px 24px;
+    font-weight: 700;
+    font-size: 16px;
     text-decoration: none; 
+}
+.pink p{
+    font-size: 700;
+    font-size: 16px;
 }
 .bn-img{
     padding-top: 96px;
@@ -150,4 +161,59 @@ button{
     font-weight: 700;
     font-size: 16px;
 
+}
+/* -----------------feature-sextion----------- */
+.feature{
+    display: flex;
+    padding-left: 165px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.feature-info{
+    padding-left: 165px;
+}
+.feature-title{
+    font-weight: 700;
+    font-size: 38px;
+    color: #0A0826;
+    padding-bottom: 16px;
+}
+.feature-des{
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--ash);
+    padding-bottom: 16px;
+}
+.feature-btn{
+
+}
+/* ----------footer------------- */
+footer{
+    background-color: #0A0826;
+    height: 400px;
+}
+.footer-info{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.footer-title{
+    font-weight: 700;
+    font-size: 24px;
+    padding-bottom: 6px;
+}
+.footer-des{
+    font-weight: 700;
+    font-size: 14px
+}
+.footer-icons{
+    margin-top: 17px;
+    display: flex;
+    color: white;
+    gap: 20px;
+}
+.footer-icon{
+    color: white;
 }
